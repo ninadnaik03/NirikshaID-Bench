@@ -1,0 +1,21 @@
+{
+  "version": "1.1.0",
+  "counterfactual_pairs": 30,
+  "paired_images": 60,
+  "pair_tamper_types": {
+    "font_swap": 10,
+    "copy_paste_splice": 10,
+    "digit_edit": 10
+  },
+  "hard_negatives": 40,
+  "hard_negative_types": {
+    "slight_font_variation": 5,
+    "uneven_jpeg_blocks": 5,
+    "alignment_shift": 5,
+    "scan_shadow": 5,
+    "low_contrast": 5,
+    "printer_noise": 5,
+    "text_compression": 5,
+    "kerning_variation": 5
+  }
+}

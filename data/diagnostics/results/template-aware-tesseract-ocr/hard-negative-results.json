@@ -1,0 +1,922 @@
+[
+  {
+    "doc_id": "hardneg_0000",
+    "hard_negative_type": "slight_font_variation",
+    "false_positive": true,
+    "confidence": 0.918,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYA PATEL",
+        "guardian_name": "DEV MEHTA",
+        "date_of_birth": "1963-08-22",
+        "identity_number": "DHR315649T",
+        "document_id": "SYN-020000"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.918,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0000.jpg"
+  },
+  {
+    "doc_id": "hardneg_0001",
+    "hard_negative_type": "uneven_jpeg_blocks",
+    "false_positive": false,
+    "confidence": 0.713,
+    "prediction": {
+      "fields": {
+        "full_name": "KAVYA GUPTA",
+        "guardian_name": "ADITI SEN",
+        "date_of_birth": "1966-06-05",
+        "identity_number": "FDB675668P",
+        "document_id": "SYN-020001"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.713,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0001.jpg"
+  },
+  {
+    "doc_id": "hardneg_0002",
+    "hard_negative_type": "alignment_shift",
+    "false_positive": true,
+    "confidence": 0.54,
+    "prediction": {
+      "fields": {
+        "full_name": "ROHAN BANERJEE",
+        "guardian_name": "RAHUL RAO",
+        "date_of_birth": "1974-10-13",
+        "identity_number": "HAZ435351W",
+        "document_id": "SYN-020002"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.54,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0002.jpg"
+  },
+  {
+    "doc_id": "hardneg_0003",
+    "hard_negative_type": "scan_shadow",
+    "false_positive": false,
+    "confidence": 0.633,
+    "prediction": {
+      "fields": {
+        "full_name": "PRIYA PATEL",
+        "guardian_name": "ARJUN GUPTA",
+        "date_of_birth": "1970-10-19",
+        "identity_number": "PVN515171G",
+        "document_id": "SYN-020003"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.633,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0003.jpg"
+  },
+  {
+    "doc_id": "hardneg_0004",
+    "hard_negative_type": "low_contrast",
+    "false_positive": false,
+    "confidence": 0.502,
+    "prediction": {
+      "fields": {
+        "full_name": "NEEL IYER",
+        "guardian_name": "ANANYA PATEL",
+        "date_of_birth": "1986-09-11",
+        "identity_number": "IVT2959771",
+        "document_id": "SYN-020004"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.502,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0004.jpg"
+  },
+  {
+    "doc_id": "hardneg_0005",
+    "hard_negative_type": "printer_noise",
+    "false_positive": false,
+    "confidence": 0.698,
+    "prediction": {
+      "fields": {
+        "full_name": "DEVDESAL i sts\u2014",
+        "guardian_name": "ARJUNKAPOOR ==",
+        "date_of_birth": "1971-12-10",
+        "identity_number": "ILZ198110X",
+        "document_id": "SYN-020005 tits"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.698,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0005.jpg"
+  },
+  {
+    "doc_id": "hardneg_0006",
+    "hard_negative_type": "text_compression",
+    "false_positive": false,
+    "confidence": 0.526,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYA KULKARNI",
+        "guardian_name": "ADITI DESAI",
+        "date_of_birth": "1976-02-16",
+        "identity_number": "QDU826518J",
+        "document_id": "SYN-020006"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.526,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0006.jpg"
+  },
+  {
+    "doc_id": "hardneg_0007",
+    "hard_negative_type": "kerning_variation",
+    "false_positive": true,
+    "confidence": 0.884,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYA SINGH",
+        "guardian_name": "DEV KHAN",
+        "date_of_birth": "1962-09-25",
+        "identity_number": "TUX384112Y",
+        "document_id": "SYN-020007"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.884,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0007.jpg"
+  },
+  {
+    "doc_id": "hardneg_0008",
+    "hard_negative_type": "slight_font_variation",
+    "false_positive": true,
+    "confidence": 0.82,
+    "prediction": {
+      "fields": {
+        "full_name": "RIYA KHAN",
+        "guardian_name": "ADITI BANERJEE",
+        "date_of_birth": "1981-09-26",
+        "identity_number": "QFA821970R",
+        "document_id": "SYN-020008"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.82,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0008.jpg"
+  },
+  {
+    "doc_id": "hardneg_0009",
+    "hard_negative_type": "uneven_jpeg_blocks",
+    "false_positive": false,
+    "confidence": 0.597,
+    "prediction": {
+      "fields": {
+        "full_name": "RAHUL JOSHI",
+        "guardian_name": "ANANYA KHAN",
+        "date_of_birth": "1972-03-20",
+        "identity_number": "ZZX661059F",
+        "document_id": "SYN-020009"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.597,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0009.jpg"
+  },
+  {
+    "doc_id": "hardneg_0010",
+    "hard_negative_type": "alignment_shift",
+    "false_positive": true,
+    "confidence": 0.69,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYA SHAH",
+        "guardian_name": "NEEL KULKARNI",
+        "date_of_birth": "1981-12-13",
+        "identity_number": "STL199201Q",
+        "document_id": "SYN-020010"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.69,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0010.jpg"
+  },
+  {
+    "doc_id": "hardneg_0011",
+    "hard_negative_type": "scan_shadow",
+    "false_positive": false,
+    "confidence": 0.61,
+    "prediction": {
+      "fields": {
+        "full_name": "ADITI DESAI",
+        "guardian_name": "SANA SINGH",
+        "date_of_birth": "\u00a7395-03-12",
+        "identity_number": "VXR511848R",
+        "document_id": "SYN-020011"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.61,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0011.jpg"
+  },
+  {
+    "doc_id": "hardneg_0012",
+    "hard_negative_type": "low_contrast",
+    "false_positive": false,
+    "confidence": 0.521,
+    "prediction": {
+      "fields": {
+        "full_name": "AARAV DESAI",
+        "guardian_name": "AARAV PATEL",
+        "date_of_birth": "1974-11-12",
+        "identity_number": "ZQY203745U",
+        "document_id": "SYN-020012"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.521,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0012.jpg"
+  },
+  {
+    "doc_id": "hardneg_0013",
+    "hard_negative_type": "printer_noise",
+    "false_positive": false,
+    "confidence": 0.71,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYAGUPTA ts",
+        "guardian_name": "DIYANAIR",
+        "date_of_birth": "1965-10-29.",
+        "identity_number": "FHU973934E",
+        "document_id": "SYN-020013"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.71,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0013.jpg"
+  },
+  {
+    "doc_id": "hardneg_0014",
+    "hard_negative_type": "text_compression",
+    "false_positive": false,
+    "confidence": 0.742,
+    "prediction": {
+      "fields": {
+        "full_name": "NEEL SEN",
+        "guardian_name": "ANANYA PATEL",
+        "date_of_birth": "2000-12-04",
+        "identity_number": "EAW282787D",
+        "document_id": "SYN-020014"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.742,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0014.jpg"
+  },
+  {
+    "doc_id": "hardneg_0015",
+    "hard_negative_type": "kerning_variation",
+    "false_positive": true,
+    "confidence": 0.731,
+    "prediction": {
+      "fields": {
+        "full_name": "AARAV NAIR",
+        "guardian_name": "RAHUL NAIR",
+        "date_of_birth": "1996-09-26",
+        "identity_number": "QPS1421641",
+        "document_id": "SYN-020015"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.731,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0015.jpg"
+  },
+  {
+    "doc_id": "hardneg_0016",
+    "hard_negative_type": "slight_font_variation",
+    "false_positive": true,
+    "confidence": 0.764,
+    "prediction": {
+      "fields": {
+        "full_name": "DEV SINGH",
+        "guardian_name": "PRIYA KAPOOR",
+        "date_of_birth": "1994-11-08",
+        "identity_number": "YMC355449N",
+        "document_id": "SYN-020016"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.764,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0016.jpg"
+  },
+  {
+    "doc_id": "hardneg_0017",
+    "hard_negative_type": "uneven_jpeg_blocks",
+    "false_positive": true,
+    "confidence": 0.531,
+    "prediction": {
+      "fields": {
+        "full_name": "ISHAN PATEL",
+        "guardian_name": "ANANYA PATEL",
+        "date_of_birth": "1964-10-16",
+        "identity_number": "WSS612867U",
+        "document_id": "SYN-020017"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.531,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0017.jpg"
+  },
+  {
+    "doc_id": "hardneg_0018",
+    "hard_negative_type": "alignment_shift",
+    "false_positive": true,
+    "confidence": 0.676,
+    "prediction": {
+      "fields": {
+        "full_name": "RIYA SHARMA",
+        "guardian_name": "ADITI JOSHI",
+        "date_of_birth": "1967-05-04",
+        "identity_number": "FUM285867C",
+        "document_id": "SYN-020018"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.676,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0018.jpg"
+  },
+  {
+    "doc_id": "hardneg_0019",
+    "hard_negative_type": "scan_shadow",
+    "false_positive": false,
+    "confidence": 0.662,
+    "prediction": {
+      "fields": {
+        "full_name": "RAHUL NAIR",
+        "guardian_name": "DIYA KULKARNI",
+        "date_of_birth": "9379-09-13",
+        "identity_number": "PRH271134S",
+        "document_id": "SYN-020019"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.662,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0019.jpg"
+  },
+  {
+    "doc_id": "hardneg_0020",
+    "hard_negative_type": "low_contrast",
+    "false_positive": false,
+    "confidence": 0.519,
+    "prediction": {
+      "fields": {
+        "full_name": "ANANYA DESAI",
+        "guardian_name": "PRIYA SINGH",
+        "date_of_birth": "1965-01-18",
+        "identity_number": "FSM036812F",
+        "document_id": "SYN-020020"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.519,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0020.jpg"
+  },
+  {
+    "doc_id": "hardneg_0021",
+    "hard_negative_type": "printer_noise",
+    "false_positive": false,
+    "confidence": 0.639,
+    "prediction": {
+      "fields": {
+        "full_name": "ANANYA PATEL. a",
+        "guardian_name": "",
+        "date_of_birth": "1961-04-11",
+        "identity_number": "VQF016318V",
+        "document_id": "SYN-020021\u00b0 ="
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.639,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0021.jpg"
+  },
+  {
+    "doc_id": "hardneg_0022",
+    "hard_negative_type": "text_compression",
+    "false_positive": false,
+    "confidence": 0.749,
+    "prediction": {
+      "fields": {
+        "full_name": "SANA GUPTA",
+        "guardian_name": "AARAV SHAH",
+        "date_of_birth": "1988-05-20",
+        "identity_number": "CKF3548081",
+        "document_id": "SYN-020022"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.749,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0022.jpg"
+  },
+  {
+    "doc_id": "hardneg_0023",
+    "hard_negative_type": "kerning_variation",
+    "false_positive": true,
+    "confidence": 0.831,
+    "prediction": {
+      "fields": {
+        "full_name": "MEERA SEN",
+        "guardian_name": "ANANYA SEN",
+        "date_of_birth": "1984-03-26",
+        "identity_number": "YIA375440D",
+        "document_id": "SYN-020023"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.831,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0023.jpg"
+  },
+  {
+    "doc_id": "hardneg_0024",
+    "hard_negative_type": "slight_font_variation",
+    "false_positive": true,
+    "confidence": 0.856,
+    "prediction": {
+      "fields": {
+        "full_name": "MEERA GUPTA",
+        "guardian_name": "AARAV SHAH",
+        "date_of_birth": "1983-03-21",
+        "identity_number": "XON575481U",
+        "document_id": "SYN-020024"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.856,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0024.jpg"
+  },
+  {
+    "doc_id": "hardneg_0025",
+    "hard_negative_type": "uneven_jpeg_blocks",
+    "false_positive": false,
+    "confidence": 0.751,
+    "prediction": {
+      "fields": {
+        "full_name": "ADIT! SHAH",
+        "guardian_name": "DIYA NAIR",
+        "date_of_birth": "1998-03-14",
+        "identity_number": "RUX757334X",
+        "document_id": "SYN-020025"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.751,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0025.jpg"
+  },
+  {
+    "doc_id": "hardneg_0026",
+    "hard_negative_type": "alignment_shift",
+    "false_positive": false,
+    "confidence": 0.587,
+    "prediction": {
+      "fields": {
+        "full_name": "ARJUN KAPOOR",
+        "guardian_name": "VIKRAM NAIR",
+        "date_of_birth": "1985-10-04",
+        "identity_number": "WVFO071364L",
+        "document_id": "SYN-020026"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.587,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0026.jpg"
+  },
+  {
+    "doc_id": "hardneg_0027",
+    "hard_negative_type": "scan_shadow",
+    "false_positive": true,
+    "confidence": 0.549,
+    "prediction": {
+      "fields": {
+        "full_name": "SANA SEN",
+        "guardian_name": "DEV BANERJEE",
+        "date_of_birth": "1987-03-23",
+        "identity_number": "HQB381515l",
+        "document_id": "SYN-020027"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.549,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0027.jpg"
+  },
+  {
+    "doc_id": "hardneg_0028",
+    "hard_negative_type": "low_contrast",
+    "false_positive": true,
+    "confidence": 0.586,
+    "prediction": {
+      "fields": {
+        "full_name": "ROHAN RAO",
+        "guardian_name": "SANA KAPOOR",
+        "date_of_birth": "1997-07-11",
+        "identity_number": "VMT397519H",
+        "document_id": "SYN-020028"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.586,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0028.jpg"
+  },
+  {
+    "doc_id": "hardneg_0029",
+    "hard_negative_type": "printer_noise",
+    "false_positive": false,
+    "confidence": 0.698,
+    "prediction": {
+      "fields": {
+        "full_name": "KAVYA SHAH !",
+        "guardian_name": "SANAMEHTA",
+        "date_of_birth": "1999-12-27,",
+        "identity_number": "PHY9634231 -",
+        "document_id": "SYN-020029 -"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.698,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0029.jpg"
+  },
+  {
+    "doc_id": "hardneg_0030",
+    "hard_negative_type": "text_compression",
+    "false_positive": false,
+    "confidence": 0.599,
+    "prediction": {
+      "fields": {
+        "full_name": "MEERA BANERJEE",
+        "guardian_name": "DEV KULKARNI",
+        "date_of_birth": "1976-09-25",
+        "identity_number": "SP1I969967Z",
+        "document_id": "SYN-020030"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.599,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0030.jpg"
+  },
+  {
+    "doc_id": "hardneg_0031",
+    "hard_negative_type": "kerning_variation",
+    "false_positive": true,
+    "confidence": 0.744,
+    "prediction": {
+      "fields": {
+        "full_name": "AARAV IYER",
+        "guardian_name": "ANANYA KHAN",
+        "date_of_birth": "1974-01-26",
+        "identity_number": "ZDD222853N",
+        "document_id": "SYN-020031"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.744,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0031.jpg"
+  },
+  {
+    "doc_id": "hardneg_0032",
+    "hard_negative_type": "slight_font_variation",
+    "false_positive": true,
+    "confidence": 0.895,
+    "prediction": {
+      "fields": {
+        "full_name": "KAVYA PATEL",
+        "guardian_name": "ANANYA SHAH",
+        "date_of_birth": "1994-10-03",
+        "identity_number": "YET782906M",
+        "document_id": "SYN-020032"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.895,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0032.jpg"
+  },
+  {
+    "doc_id": "hardneg_0033",
+    "hard_negative_type": "uneven_jpeg_blocks",
+    "false_positive": false,
+    "confidence": 0.603,
+    "prediction": {
+      "fields": {
+        "full_name": "VIKRAM SEN",
+        "guardian_name": "KAVYA KULKARNI",
+        "date_of_birth": "1982-07-10",
+        "identity_number": "WCJ916276l",
+        "document_id": "SYN-020033"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.603,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0033.jpg"
+  },
+  {
+    "doc_id": "hardneg_0034",
+    "hard_negative_type": "alignment_shift",
+    "false_positive": false,
+    "confidence": 0.71,
+    "prediction": {
+      "fields": {
+        "full_name": "RIYA JOSHI",
+        "guardian_name": "RIYA KULKARNI",
+        "date_of_birth": "1976-07-15",
+        "identity_number": "PIP846679T",
+        "document_id": "SYN-020034"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.71,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0034.jpg"
+  },
+  {
+    "doc_id": "hardneg_0035",
+    "hard_negative_type": "scan_shadow",
+    "false_positive": false,
+    "confidence": 0.622,
+    "prediction": {
+      "fields": {
+        "full_name": "ISHAN SHAH",
+        "guardian_name": "VIKRAM GUPTA",
+        "date_of_birth": "2003-05-27",
+        "identity_number": "ANP954159U",
+        "document_id": "SYN-020035"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.622,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0035.jpg"
+  },
+  {
+    "doc_id": "hardneg_0036",
+    "hard_negative_type": "low_contrast",
+    "false_positive": false,
+    "confidence": 0.525,
+    "prediction": {
+      "fields": {
+        "full_name": "KAVYA BANERJEE",
+        "guardian_name": "VIKRAM DESAI",
+        "date_of_birth": "1991-12-04",
+        "identity_number": "DUJ178969F",
+        "document_id": "SYN-020036"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.525,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0036.jpg"
+  },
+  {
+    "doc_id": "hardneg_0037",
+    "hard_negative_type": "printer_noise",
+    "false_positive": true,
+    "confidence": 0.689,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYARAO \u2014t\u2122",
+        "guardian_name": "VIKRAMBANERJEE =\u2014\u2014S",
+        "date_of_birth": "1974-12-02,",
+        "identity_number": "FZF238857L",
+        "document_id": "SYN-020037 ."
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.689,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0037.jpg"
+  },
+  {
+    "doc_id": "hardneg_0038",
+    "hard_negative_type": "text_compression",
+    "false_positive": false,
+    "confidence": 0.572,
+    "prediction": {
+      "fields": {
+        "full_name": "DIYA KAPOOR",
+        "guardian_name": "PRIYA NAIR",
+        "date_of_birth": "1995-02-19",
+        "identity_number": "VJS615541J",
+        "document_id": "SYN-020038"
+      },
+      "tampered": false,
+      "abstain": false,
+      "tamper_type": "none",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.572,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0038.jpg"
+  },
+  {
+    "doc_id": "hardneg_0039",
+    "hard_negative_type": "kerning_variation",
+    "false_positive": true,
+    "confidence": 0.736,
+    "prediction": {
+      "fields": {
+        "full_name": "DEV RAO",
+        "guardian_name": "ISHAN GUPTA",
+        "date_of_birth": "1983-05-11",
+        "identity_number": "JYA958234H",
+        "document_id": "SYN-020039"
+      },
+      "tampered": true,
+      "abstain": false,
+      "tamper_type": "font_swap",
+      "tampered_field": null,
+      "tamper_bbox": null,
+      "confidence": 0.736,
+      "reason": "Fixed-region Tesseract OCR plus a train-split random-forest visual-feature classifier."
+    },
+    "image_url": "/api/diagnostic-assets/hard_negatives/hardneg_0039.jpg"
+  }
+]

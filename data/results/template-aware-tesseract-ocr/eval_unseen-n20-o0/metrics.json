@@ -1,0 +1,149 @@
+{
+  "status": "completed",
+  "model": {
+    "id": "template-aware-tesseract-ocr",
+    "display_name": "Template-Aware Tesseract OCR + Visual RF",
+    "version": "tesseract-5.4+rf-visual-v1",
+    "kind": "classical OCR + trained image features",
+    "mode": "Fixed-region OCR; RF fit on train pixels/labels",
+    "quantization": "not applicable",
+    "is_vlm": false
+  },
+  "dataset_version": "1.0.0",
+  "split": "eval_unseen",
+  "run_name": "eval_unseen-n20-o0",
+  "samples": 20,
+  "sample_offset": 0,
+  "timestamp": "2026-07-23T10:00:59.684757+00:00",
+  "prompt_version": "ocr-fixed-regions-v1",
+  "field_extraction": {
+    "macro_normalized_exact_match": 1.0,
+    "per_field": {
+      "full_name": {
+        "exact_match": 1.0,
+        "normalized_exact_match": 1.0,
+        "cer": 0.0,
+        "fuzzy_score": 1.0
+      },
+      "guardian_name": {
+        "exact_match": 1.0,
+        "normalized_exact_match": 1.0,
+        "cer": 0.0,
+        "fuzzy_score": 1.0
+      },
+      "date_of_birth": {
+        "exact_match": 1.0,
+        "normalized_exact_match": 1.0,
+        "cer": 0.0,
+        "fuzzy_score": 1.0
+      },
+      "identity_number": {
+        "exact_match": 1.0,
+        "normalized_exact_match": 1.0,
+        "cer": 0.0,
+        "fuzzy_score": 1.0
+      },
+      "document_id": {
+        "exact_match": 1.0,
+        "normalized_exact_match": 1.0,
+        "cer": 0.0,
+        "fuzzy_score": 1.0
+      }
+    }
+  },
+  "robustness": {
+    "clean_field_em": 1.0,
+    "clean_support": 9,
+    "degraded_field_em": 1.0,
+    "degraded_support": 11,
+    "performance_drop": 0.0
+  },
+  "tamper_detection": {
+    "accuracy": 0.85,
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1": 0.8235294117647058,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        3,
+        7
+      ]
+    ]
+  },
+  "tamper_type": {
+    "macro_f1": 0.25641025641025644,
+    "per_class": {
+      "digit_edit": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            10,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ]
+      },
+      "font_swap": {
+        "accuracy": 0.8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            16,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "none": {
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "confusion_matrix": [
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  "localization": {
+    "mean_iou": null,
+    "iou_at_0_5": null,
+    "localized_samples": 0
+  },
+  "held_out_digit_edit": {
+    "recall": 0.0,
+    "support": 10,
+    "wilson_95_ci": [
+      0,
+      0.2775401687666166
+    ]
+  },
+  "efficiency": {
+    "median_latency_ms": 1703.875,
+    "failure_rate": 0.0,
+    "parse_success_rate": 1.0
+  },
+  "small_sample_warning": true
+}

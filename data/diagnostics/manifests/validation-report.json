@@ -1,0 +1,6 @@
+{
+  "valid": true,
+  "pairs": 30,
+  "hard_negatives": 40,
+  "errors": []
+}

@@ -6,8 +6,8 @@ generate:
 validate:
 	python scripts/validate_dataset.py
 benchmark:
-	python scripts/run_benchmark.py --model mock --split eval_seen
-	python scripts/run_benchmark.py --model mock --split eval_unseen
+	python scripts/run_benchmark.py --model ocr --split eval_seen
+	python scripts/run_benchmark.py --model ocr --split eval_unseen
 test:
 	python -m pytest
 build:

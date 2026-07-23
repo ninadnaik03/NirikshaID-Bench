@@ -1,0 +1,18 @@
+version: "1.1.0"
+seed: 20260811
+counterfactual_pairs:
+  count: 30
+  tamper_types: [font_swap, copy_paste_splice, digit_edit]
+hard_negatives:
+  count: 40
+  types:
+    - slight_font_variation
+    - uneven_jpeg_blocks
+    - alignment_shift
+    - scan_shadow
+    - low_contrast
+    - printer_noise
+    - text_compression
+    - kerning_variation
+output_dir: data/diagnostics
+

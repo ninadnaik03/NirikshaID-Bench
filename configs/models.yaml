@@ -1,0 +1,21 @@
+default: demo_stub
+models:
+  demo_stub:
+    display_name: Label-Derived Demo Stub
+    mode: local
+    enabled: true
+    benchmarkable: false
+  ocr:
+    display_name: Template-Aware Tesseract OCR + Visual RF
+    mode: local
+    enabled: true
+  qwen:
+    display_name: Qwen2.5-VL-3B-Instruct
+    mode: local
+    model_id: qwen2.5vl:3b
+    runtime: ollama
+    enabled: true
+  gemini:
+    display_name: Gemini Flash
+    mode: api
+    enabled_env: GEMINI_API_KEY

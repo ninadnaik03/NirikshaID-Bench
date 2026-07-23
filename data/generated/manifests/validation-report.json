@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "documents": 600,
+  "errors": [],
+  "splits": {
+    "train": 360,
+    "validation": 60,
+    "eval_seen": 80,
+    "eval_unseen": 80,
+    "demo_gallery": 20
+  },
+  "tamper_types": {
+    "none": 300,
+    "font_swap": 130,
+    "copy_paste_splice": 130,
+    "digit_edit": 40
+  }
+}

@@ -1,0 +1,27 @@
+version: "1.0.0"
+seed: 20260723
+total_samples: 600
+image:
+  width: 960
+  height: 600
+  quality: 92
+splits:
+  train: 360
+  validation: 60
+  eval_seen: 80
+  eval_unseen: 80
+  demo_gallery: 20
+identity_number:
+  letters_prefix: 3
+  digits: 6
+  letters_suffix: 1
+tamper:
+  evaluation_tampered_ratio: 0.5
+  held_out_type: digit_edit
+  seen_types: [font_swap, copy_paste_splice]
+degradations:
+  blur_probability: 0.38
+  noise_probability: 0.35
+  jpeg_probability: 0.50
+output_dir: data/generated
+

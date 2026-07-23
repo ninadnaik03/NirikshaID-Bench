@@ -1,0 +1,27 @@
+{
+  "total": 600,
+  "splits": {
+    "train": 360,
+    "validation": 60,
+    "eval_seen": 80,
+    "eval_unseen": 80,
+    "demo_gallery": 20
+  },
+  "tamper_types": {
+    "none": 300,
+    "font_swap": 130,
+    "copy_paste_splice": 130,
+    "digit_edit": 40
+  },
+  "tampered": {
+    "false": 300,
+    "true": 300
+  },
+  "degradations": {
+    "jpeg": 267,
+    "blur": 214,
+    "noise": 211
+  },
+  "seed": 20260723,
+  "generator_version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+enabled: false
+model_id: Qwen/Qwen2.5-VL-3B-Instruct
+allowed_splits: [train, validation]
+excluded_tamper_types: [digit_edit]
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+batch_size: 1
+gradient_accumulation: 8
+
