@@ -1,0 +1,823 @@
+{
+  "items": [
+    {
+      "doc_id": "nid_000580",
+      "image_url": "/demo/nid_000580.jpg",
+      "split": "demo_gallery",
+      "tampered": false,
+      "tamper_type": "none",
+      "degradations": [],
+      "ground_truth": {
+        "doc_id": "nid_000580",
+        "image_path": "images/nid_000580.jpg",
+        "fields": {
+          "full_name": "ADITI SINGH",
+          "guardian_name": "RAHUL NAIR",
+          "date_of_birth": "1994-09-14",
+          "identity_number": "ZTB548946W",
+          "document_id": "SYN-000580"
+        },
+        "displayed_fields": {
+          "full_name": "ADITI SINGH",
+          "guardian_name": "RAHUL NAIR",
+          "date_of_birth": "1994-09-14",
+          "identity_number": "ZTB548946W",
+          "document_id": "SYN-000580"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            458,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            447,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            460,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": false,
+        "tamper_type": "none",
+        "tampered_field": null,
+        "tamper_bbox": null,
+        "degradations": [],
+        "split": "demo_gallery",
+        "seed": 20261303,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "ADITI SINGH",
+              "guardian_name": "RAHUL NAIR",
+              "date_of_birth": "1994-09-14",
+              "identity_number": "ZTB548946W",
+              "document_id": "SYN-000580"
+            },
+            "tampered": false,
+            "tamper_type": "none",
+            "tampered_field": null,
+            "tamper_bbox": null,
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000581",
+      "image_url": "/demo/nid_000581.jpg",
+      "split": "demo_gallery",
+      "tampered": true,
+      "tamper_type": "font_swap",
+      "degradations": [],
+      "ground_truth": {
+        "doc_id": "nid_000581",
+        "image_path": "images/nid_000581.jpg",
+        "fields": {
+          "full_name": "AARAV KULKARNI",
+          "guardian_name": "SANA SHARMA",
+          "date_of_birth": "1981-09-29",
+          "identity_number": "XAN442353V",
+          "document_id": "SYN-000581"
+        },
+        "displayed_fields": {
+          "full_name": "AARAV KULKARNI",
+          "guardian_name": "SANA SHARMA",
+          "date_of_birth": "1981-09-29",
+          "identity_number": "XAN442353V",
+          "document_id": "SYN-000581"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            524,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            476,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            460,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": true,
+        "tamper_type": "font_swap",
+        "tampered_field": "full_name",
+        "tamper_bbox": [
+          296,
+          195,
+          524,
+          220
+        ],
+        "degradations": [],
+        "split": "demo_gallery",
+        "seed": 20261304,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "AARAV KULKARNI",
+              "guardian_name": "SANA SHARMA",
+              "date_of_birth": "1981-09-29",
+              "identity_number": "XAN442353V",
+              "document_id": "SYN-000581"
+            },
+            "tampered": true,
+            "tamper_type": "font_swap",
+            "tampered_field": "full_name",
+            "tamper_bbox": [
+              296,
+              195,
+              524,
+              220
+            ],
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000582",
+      "image_url": "/demo/nid_000582.jpg",
+      "split": "demo_gallery",
+      "tampered": false,
+      "tamper_type": "none",
+      "degradations": [
+        {
+          "type": "blur",
+          "severity": 0.26
+        },
+        {
+          "type": "noise",
+          "severity": 0.21
+        },
+        {
+          "type": "jpeg",
+          "severity": 0.4
+        }
+      ],
+      "ground_truth": {
+        "doc_id": "nid_000582",
+        "image_path": "images/nid_000582.jpg",
+        "fields": {
+          "full_name": "VIKRAM SHARMA",
+          "guardian_name": "AARAV KAPOOR",
+          "date_of_birth": "1962-10-11",
+          "identity_number": "ELL106441A",
+          "document_id": "SYN-000582"
+        },
+        "displayed_fields": {
+          "full_name": "VIKRAM SHARMA",
+          "guardian_name": "AARAV KAPOOR",
+          "date_of_birth": "1962-10-11",
+          "identity_number": "ELL106441A",
+          "document_id": "SYN-000582"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            520,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            489,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            446,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": false,
+        "tamper_type": "none",
+        "tampered_field": null,
+        "tamper_bbox": null,
+        "degradations": [
+          {
+            "type": "blur",
+            "severity": 0.26
+          },
+          {
+            "type": "noise",
+            "severity": 0.21
+          },
+          {
+            "type": "jpeg",
+            "severity": 0.4
+          }
+        ],
+        "split": "demo_gallery",
+        "seed": 20261305,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "VIKRAM SHARMA",
+              "guardian_name": "AARAV KAPOOR",
+              "date_of_birth": "1962-10-11",
+              "identity_number": "ELL106441A",
+              "document_id": "SYN-000582"
+            },
+            "tampered": false,
+            "tamper_type": "none",
+            "tampered_field": null,
+            "tamper_bbox": null,
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000583",
+      "image_url": "/demo/nid_000583.jpg",
+      "split": "demo_gallery",
+      "tampered": true,
+      "tamper_type": "copy_paste_splice",
+      "degradations": [],
+      "ground_truth": {
+        "doc_id": "nid_000583",
+        "image_path": "images/nid_000583.jpg",
+        "fields": {
+          "full_name": "KAVYA SINGH",
+          "guardian_name": "PRIYA KULKARNI",
+          "date_of_birth": "2004-02-03",
+          "identity_number": "YQY511208I",
+          "document_id": "SYN-000583"
+        },
+        "displayed_fields": {
+          "full_name": "KAVYA SINGH",
+          "guardian_name": "PRIYA KULKARNI",
+          "date_of_birth": "2004-02-03",
+          "identity_number": "YQY511208I",
+          "document_id": "SYN-000583"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            475,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            494,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            446,
+            462
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": true,
+        "tamper_type": "copy_paste_splice",
+        "tampered_field": "guardian_name",
+        "tamper_bbox": [
+          296,
+          275,
+          494,
+          300
+        ],
+        "degradations": [],
+        "split": "demo_gallery",
+        "seed": 20261306,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "KAVYA SINGH",
+              "guardian_name": "PRIYA KULKARNI",
+              "date_of_birth": "2004-02-03",
+              "identity_number": "YQY511208I",
+              "document_id": "SYN-000583"
+            },
+            "tampered": true,
+            "tamper_type": "copy_paste_splice",
+            "tampered_field": "guardian_name",
+            "tamper_bbox": [
+              296,
+              275,
+              494,
+              300
+            ],
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000584",
+      "image_url": "/demo/nid_000584.jpg",
+      "split": "demo_gallery",
+      "tampered": false,
+      "tamper_type": "none",
+      "degradations": [
+        {
+          "type": "noise",
+          "severity": 0.2
+        }
+      ],
+      "ground_truth": {
+        "doc_id": "nid_000584",
+        "image_path": "images/nid_000584.jpg",
+        "fields": {
+          "full_name": "VIKRAM SEN",
+          "guardian_name": "KAVYA JOSHI",
+          "date_of_birth": "1993-10-06",
+          "identity_number": "RSV344840U",
+          "document_id": "SYN-000584"
+        },
+        "displayed_fields": {
+          "full_name": "VIKRAM SEN",
+          "guardian_name": "KAVYA JOSHI",
+          "date_of_birth": "1993-10-06",
+          "identity_number": "RSV344840U",
+          "document_id": "SYN-000584"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            458,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            455,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            454,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": false,
+        "tamper_type": "none",
+        "tampered_field": null,
+        "tamper_bbox": null,
+        "degradations": [
+          {
+            "type": "noise",
+            "severity": 0.2
+          }
+        ],
+        "split": "demo_gallery",
+        "seed": 20261307,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "VIKRAM SEN",
+              "guardian_name": "KAVYA JOSHI",
+              "date_of_birth": "1993-10-06",
+              "identity_number": "RSV344840U",
+              "document_id": "SYN-000584"
+            },
+            "tampered": false,
+            "tamper_type": "none",
+            "tampered_field": null,
+            "tamper_bbox": null,
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000585",
+      "image_url": "/demo/nid_000585.jpg",
+      "split": "demo_gallery",
+      "tampered": true,
+      "tamper_type": "font_swap",
+      "degradations": [
+        {
+          "type": "blur",
+          "severity": 0.6
+        },
+        {
+          "type": "noise",
+          "severity": 0.29
+        }
+      ],
+      "ground_truth": {
+        "doc_id": "nid_000585",
+        "image_path": "images/nid_000585.jpg",
+        "fields": {
+          "full_name": "DIYA SHARMA",
+          "guardian_name": "RIYA GUPTA",
+          "date_of_birth": "1968-01-19",
+          "identity_number": "NGE628485E",
+          "document_id": "SYN-000585"
+        },
+        "displayed_fields": {
+          "full_name": "DIYA SHARMA",
+          "guardian_name": "RIYA GUPTA",
+          "date_of_birth": "1968-01-19",
+          "identity_number": "NGE628485E",
+          "document_id": "SYN-000585"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            480,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            441,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            453,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": true,
+        "tamper_type": "font_swap",
+        "tampered_field": "identity_number",
+        "tamper_bbox": [
+          296,
+          435,
+          453,
+          460
+        ],
+        "degradations": [
+          {
+            "type": "blur",
+            "severity": 0.6
+          },
+          {
+            "type": "noise",
+            "severity": 0.29
+          }
+        ],
+        "split": "demo_gallery",
+        "seed": 20261308,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "DIYA SHARMA",
+              "guardian_name": "RIYA GUPTA",
+              "date_of_birth": "1968-01-19",
+              "identity_number": "NGE628485E",
+              "document_id": "SYN-000585"
+            },
+            "tampered": true,
+            "tamper_type": "font_swap",
+            "tampered_field": "identity_number",
+            "tamper_bbox": [
+              296,
+              435,
+              453,
+              460
+            ],
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000586",
+      "image_url": "/demo/nid_000586.jpg",
+      "split": "demo_gallery",
+      "tampered": false,
+      "tamper_type": "none",
+      "degradations": [
+        {
+          "type": "jpeg",
+          "severity": 0.67
+        }
+      ],
+      "ground_truth": {
+        "doc_id": "nid_000586",
+        "image_path": "images/nid_000586.jpg",
+        "fields": {
+          "full_name": "RIYA DESAI",
+          "guardian_name": "NEEL SHAH",
+          "date_of_birth": "1973-09-28",
+          "identity_number": "ZHK443363J",
+          "document_id": "SYN-000586"
+        },
+        "displayed_fields": {
+          "full_name": "RIYA DESAI",
+          "guardian_name": "NEEL SHAH",
+          "date_of_birth": "1973-09-28",
+          "identity_number": "ZHK443363J",
+          "document_id": "SYN-000586"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            440,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            434,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            450,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": false,
+        "tamper_type": "none",
+        "tampered_field": null,
+        "tamper_bbox": null,
+        "degradations": [
+          {
+            "type": "jpeg",
+            "severity": 0.67
+          }
+        ],
+        "split": "demo_gallery",
+        "seed": 20261309,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "RIYA DESAI",
+              "guardian_name": "NEEL SHAH",
+              "date_of_birth": "1973-09-28",
+              "identity_number": "ZHK443363J",
+              "document_id": "SYN-000586"
+            },
+            "tampered": false,
+            "tamper_type": "none",
+            "tampered_field": null,
+            "tamper_bbox": null,
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    },
+    {
+      "doc_id": "nid_000587",
+      "image_url": "/demo/nid_000587.jpg",
+      "split": "demo_gallery",
+      "tampered": true,
+      "tamper_type": "copy_paste_splice",
+      "degradations": [
+        {
+          "type": "blur",
+          "severity": 0.43
+        },
+        {
+          "type": "noise",
+          "severity": 0.38
+        }
+      ],
+      "ground_truth": {
+        "doc_id": "nid_000587",
+        "image_path": "images/nid_000587.jpg",
+        "fields": {
+          "full_name": "ADITI PATEL",
+          "guardian_name": "ROHAN NAIR",
+          "date_of_birth": "1981-05-30",
+          "identity_number": "BYU640088X",
+          "document_id": "SYN-000587"
+        },
+        "displayed_fields": {
+          "full_name": "ADITI PATEL",
+          "guardian_name": "ROHAN NAIR",
+          "date_of_birth": "1981-05-30",
+          "identity_number": "BYU640088X",
+          "document_id": "SYN-000587"
+        },
+        "field_bboxes": {
+          "full_name": [
+            296,
+            195,
+            453,
+            220
+          ],
+          "guardian_name": [
+            296,
+            275,
+            456,
+            300
+          ],
+          "date_of_birth": [
+            296,
+            355,
+            429,
+            380
+          ],
+          "identity_number": [
+            296,
+            435,
+            455,
+            460
+          ],
+          "document_id": [
+            296,
+            515,
+            439,
+            540
+          ]
+        },
+        "tampered": true,
+        "tamper_type": "copy_paste_splice",
+        "tampered_field": "guardian_name",
+        "tamper_bbox": [
+          296,
+          275,
+          456,
+          300
+        ],
+        "degradations": [
+          {
+            "type": "blur",
+            "severity": 0.43
+          },
+          {
+            "type": "noise",
+            "severity": 0.38
+          }
+        ],
+        "split": "demo_gallery",
+        "seed": 20261310,
+        "generator_version": "1.0.0"
+      },
+      "predictions": [
+        {
+          "latency_ms": 0,
+          "parser_repaired": false,
+          "prediction": {
+            "fields": {
+              "full_name": "ADITI PATEL",
+              "guardian_name": "ROHAN NAIR",
+              "date_of_birth": "1981-05-30",
+              "identity_number": "BYU640088X",
+              "document_id": "SYN-000587"
+            },
+            "tampered": true,
+            "tamper_type": "copy_paste_splice",
+            "tampered_field": "guardian_name",
+            "tamper_bbox": [
+              296,
+              275,
+              456,
+              300
+            ],
+            "confidence": 1,
+            "reason": "Precomputed label-derived Demo Stub output for interface walkthrough only."
+          }
+        }
+      ]
+    }
+  ],
+  "total": 8
+}

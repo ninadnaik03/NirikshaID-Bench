@@ -1,24 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { API_BASE, fetchApi, GalleryItem } from "@/lib/api";
+import { staticDemoItems } from "@/data/static-data";
 
 export function DemoExplorer() {
-  const [items, setItems] = useState<GalleryItem[]>([]);
+  const items = staticDemoItems;
   const [selected, setSelected] = useState(0);
   const [showTruth, setShowTruth] = useState(true);
   const [analysisStage, setAnalysisStage] = useState(-1);
-  const [error, setError] = useState("");
-  useEffect(() => {
-    fetchApi<{items: GalleryItem[]}>("/api/demo/gallery").then((data) => setItems(data.items)).catch((err) => setError(err.message));
-  }, []);
   useEffect(() => {
     if (analysisStage < 0 || analysisStage >= ANALYSIS_STEPS.length - 1) return;
     const timer = window.setTimeout(() => setAnalysisStage((stage) => stage + 1), 720);
     return () => window.clearTimeout(timer);
   }, [analysisStage]);
-  if (error) return <div className="callout">Could not reach the local API: {error}</div>;
-  if (!items.length) return <p className="muted">Loading generated gallery…</p>;
+  if (!items.length) return <p className="muted">No deployment gallery samples are available.</p>;
   const item = items[selected];
   const prediction = item.predictions[0];
   const extractionMatches = Object.entries(item.ground_truth.displayed_fields).filter(
@@ -43,7 +38,7 @@ export function DemoExplorer() {
         <div className="imageStage">
           {/* Intentionally using a plain image because backend URLs are runtime-configurable. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={`${API_BASE}${item.image_url}`} alt={`Synthetic identity card ${item.doc_id}`} />
+          <img src={item.image_url} alt={`Synthetic identity card ${item.doc_id}`} />
           {bbox && <div className="bbox" style={style} />}
         </div>
         <label className="toggle"><input type="checkbox" checked={showTruth} onChange={(event) => setShowTruth(event.target.checked)} /> Show ground-truth box (off = model box)</label>

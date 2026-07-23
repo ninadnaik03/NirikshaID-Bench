@@ -1,28 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { BenchmarkRun, fetchApi } from "@/lib/api";
+import { useState } from "react";
+import {
+  staticDiagnosticFailures,
+  staticDiagnostics,
+  staticRuns,
+} from "@/data/static-data";
+import type { BenchmarkRun } from "@/lib/api";
 import { Metric } from "./LiveOverview";
 
 export function ResultsExplorer() {
-  const [runs, setRuns] = useState<BenchmarkRun[] | null>(null);
-  const [failures, setFailures] = useState<FailureExample[]>([]);
-  const [diagnostics, setDiagnostics] = useState<DiagnosticSummary | null>(null);
-  const [error, setError] = useState(false);
-  useEffect(() => {
-    Promise.all([
-      fetchApi<{runs: BenchmarkRun[]}>("/api/benchmark/summary"),
-      fetchApi<{items: FailureExample[]}>("/api/benchmark/failures?page_size=12"),
-      fetchApi<DiagnosticSummary>("/api/diagnostics/summary"),
-      fetchApi<{items: FailureExample[]}>("/api/diagnostics/failures?limit=12"),
-    ]).then(([summary, failureData, diagnosticData, diagnosticFailures]) => {
-      setRuns(summary.runs);
-      setFailures([...diagnosticFailures.items, ...failureData.items].slice(0, 12));
-      setDiagnostics(diagnosticData);
-    }).catch(() => setError(true));
-  }, []);
-  if (error) return <div className="callout">The backend is offline. Start it to inspect saved benchmark artifacts.</div>;
-  if (!runs) return <p className="muted">Loading measured results…</p>;
+  const [runs] = useState<BenchmarkRun[]>(staticRuns);
+  const [failures] = useState<FailureExample[]>(
+    staticDiagnosticFailures.slice(0, 12) as FailureExample[],
+  );
+  const [diagnostics] = useState<DiagnosticSummary>(
+    staticDiagnostics as DiagnosticSummary,
+  );
   if (!runs.length) return <div className="callout">Benchmark not yet executed locally.</div>;
   return <>
     <div className="tableWrap"><table className="dataTable"><thead><tr><th>Model</th><th>Split</th><th>Samples</th><th>Field NEM</th><th>Tamper F1</th><th>Type macro F1</th><th>Median latency</th></tr></thead>
@@ -69,7 +63,7 @@ export function ResultsExplorer() {
     </section>}
     <section className="section"><div className="eyebrow">Failure analysis</div><h2>Where image-only systems break</h2><div className="failureGrid">{failures.map((failure) => <article className="card" key={`${failure.doc_id}-${failure.failure_category}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="failureImage" src={`${process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000"}${failure.image_url}`} alt={`Failure example ${failure.doc_id}`} />
+      <img className="failureImage" src={`/failures/${failure.doc_id}.jpg`} alt={`Failure example ${failure.doc_id}`} />
       <p><span className="tag">{failure.failure_category}</span><span className="tag">{failure.tamper_type}</span></p>
       <h3>{failure.doc_id}</h3><p>{failure.reason}</p>
       <details><summary>Prediction versus ground truth</summary><pre className="miniJson">{JSON.stringify({truth: failure.ground_truth.tamper_type, prediction: failure.prediction?.tamper_type ?? "parse failure"}, null, 2)}</pre></details>
