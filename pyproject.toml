@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nirikshaid-bench"
+version = "1.0.0"
+description = "A reproducible synthetic benchmark for identity-document extraction and tamper detection."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Ninad Naik" }]
+keywords = ["document-intelligence", "vision-language-models", "ocr", "tamper-detection", "benchmark"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.8",
+  "pydantic-settings>=2.4",
+  "Pillow>=10.4",
+  "PyYAML>=6.0",
+  "numpy>=1.26",
+  "python-multipart>=0.0.9",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+eval = ["rapidfuzz>=3.9", "scikit-learn>=1.5", "pandas>=2.2"]
+dev = ["pytest>=8.3", "ruff>=0.6"]
+ocr = ["pytesseract>=0.3.13", "opencv-python-headless>=4.10", "scikit-learn>=1.5"]
+models = ["torch>=2.3", "transformers>=4.49", "accelerate>=1.0"]
+
+[project.urls]
+Homepage = "https://github.com/ninadnaik03/nirikshaid-bench"
+Repository = "https://github.com/ninadnaik03/nirikshaid-bench"
+Documentation = "https://github.com/ninadnaik03/nirikshaid-bench/tree/main/docs"
+Issues = "https://github.com/ninadnaik03/nirikshaid-bench/issues"
+
+[project.scripts]
+niriksha-generate = "niriksha_bench.generator.generate:main"
+niriksha-validate = "niriksha_bench.generator.validator:main"
+niriksha-benchmark = "niriksha_bench.evaluation.evaluator:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+  "local_artifacts: requires generated local dataset or diagnostic images",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
