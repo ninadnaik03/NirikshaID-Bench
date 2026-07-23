@@ -10,7 +10,6 @@
 [![CI](https://img.shields.io/badge/CI-tests%20%2B%20builds-35d0ba)](.github/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Research demo — not a production KYC system**
 
 </div>
 
