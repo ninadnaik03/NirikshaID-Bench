@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/projects/nirikshalbenchid",
+  basePath: "/projects/niriksha-bench",
   images: {
     unoptimized: true,
   },
